@@ -24,5 +24,4 @@ script:
   - /opt/at14.0/bin/powerpc64le-linux-gnu-gccgo hello_world.go -o hello_world_go_program
   - rm -rf programs/hello_world_c_program programs/hello_world_cpp_program hello_world_go_program
   - echo "Running Hello world (C program) using default gcc compiler"
-  - sudo sh python_interpreter.sh
   - ls
